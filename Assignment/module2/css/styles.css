@@ -1,0 +1,87 @@
+/*Basic css reset*/
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*Basic design*/
+h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 20px 20px 0px 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    width: 125px;
+    float: right;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.item1 {
+    background-color: blue;
+}
+
+.item2 {
+    background-color: blueviolet;
+}
+
+.item3 {
+    background-color: brown;
+}
+
+p {
+    font-size: 20px;
+    clear: both;
+    padding: 10px;
+}
+
+.row > div {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: grey;
+    border: 1px solid black;
+    float : left;
+}
+
+/*Tablet view*/
+@media (min-width : 768px) and (max-width : 991px) {
+    .row > div {
+        width: 47%;
+        margin: 2%;
+    }
+
+    #col-md-12 {
+        margin-left: 2%;
+        margin-right: 0%;
+    }
+
+    #col-md-6 {
+        width: 96%;
+        margin-top: 0%;
+    }
+}
+
+/*Mobile view*/
+@media (min-width : 992px) {
+    .row > div {
+        width: 30%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
+    #col-lg-3 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
