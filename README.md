@@ -1,2 +1,2 @@
-This is a repository focusing primarily on the COursera course. It includes the lecture example codes and also the solution to the assignments. In addition presently bootstrap files are present both in uncompiles scss form and compiles
+This is a repository focusing primarily on the Coursera course. It includes the lecture example codes and also the solution to the assignments. In addition presently bootstrap files are present both in uncompiles scss form and compiles
 css form.
